@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. 背景層 (直接畫一個深藍色方塊) -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- 2. 前景圖案 (疊在上面) -->
+    <group android:translateX="24" android:translateY="24" android:scaleX="0.55" android:scaleY="0.55">
+        <!-- 外圈循環箭頭 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M60,10 C32.4,10 10,32.4 10,60 C10,68.8 12.3,77 16.3,84.1 L23.8,76.6 C21.4,71.6 20,66 20,60 C20,37.9 37.9,20 60,20 C82.1,20 100,37.9 100,60 C100,82.1 82.1,100 60,100 C53.2,100 46.8,98.3 41.2,95.3 L33.9,102.6 C41.4,107.3 50.3,110 60,110 C87.6,110 110,87.6 110,60 C110,32.4 87.6,10 60,10 Z M30,40 L30,70 L55,55 Z"/>
+        <!-- 內層 NFC 電波 -->
+        <path
+            android:fillColor="#4FC3F7"
+            android:pathData="M60,35 C46.2,35 35,46.2 35,60 C35,73.8 46.2,85 60,85 C73.8,85 85,73.8 85,60 C85,46.2 73.8,35 60,35 Z M60,75 C51.7,75 45,68.3 45,60 C45,51.7 51.7,45 60,45 C68.3,45 75,51.7 75,60 C75,68.3 68.3,75 60,75 Z"/>
+        <!-- 核心點 -->
+        <path
+            android:fillColor="#FFEB3B"
+            android:pathData="M60,60 m-8,0 a8,8 0,1,1 16,0 a8,8 0,1,1 -16,0"/>
+    </group>
+</vector>

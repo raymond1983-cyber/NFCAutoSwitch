@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.marineking.nfcautoswitch"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+11-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:6:5-7:47
+11-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:6:22-77
+12
+13    <!-- 新增：宣告我們需要查詢 NFC 服務 (解決 Android 11+ 掃不到 App 的問題) -->
+14    <queries>
+14-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:10:5-17:15
+15        <intent>
+15-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:11:9-13:18
+16            <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+16-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:12:13-89
+16-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:12:21-86
+17        </intent>
+18        <intent>
+18-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:14:9-16:18
+19            <action android:name="android.nfc.cardemulation.action.OFF_HOST_APDU_SERVICE" />
+19-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:15:13-93
+19-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:15:21-90
+20        </intent>
+21    </queries>
+22
+23    <permission
+23-->[androidx.core:core:1.12.0] /Users/raymond/.gradle/caches/8.13/transforms/df54706b06347e72c6f897517b97d27d/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+24        android:name="com.marineking.nfcautoswitch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.12.0] /Users/raymond/.gradle/caches/8.13/transforms/df54706b06347e72c6f897517b97d27d/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.12.0] /Users/raymond/.gradle/caches/8.13/transforms/df54706b06347e72c6f897517b97d27d/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.marineking.nfcautoswitch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.12.0] /Users/raymond/.gradle/caches/8.13/transforms/df54706b06347e72c6f897517b97d27d/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.12.0] /Users/raymond/.gradle/caches/8.13/transforms/df54706b06347e72c6f897517b97d27d/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:19:5-50:19
+30        android:allowBackup="true"
+30-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:20:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.12.0] /Users/raymond/.gradle/caches/8.13/transforms/df54706b06347e72c6f897517b97d27d/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@drawable/ic_launcher_combined"
+34-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:21:9-54
+35        android:label="@string/app_name"
+35-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:22:9-41
+36        android:roundIcon="@drawable/ic_launcher_combined"
+36-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:23:9-59
+37        android:supportsRtl="true"
+37-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:24:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+39-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:25:9-65
+40        <activity
+40-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:27:9-34:20
+41            android:name="com.marineking.nfcautoswitch.MainActivity"
+41-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:28:13-41
+42            android:exported="true" >
+42-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:29:13-36
+43            <intent-filter>
+43-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:30:13-33:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:31:17-69
+44-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:31:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:32:17-77
+46-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:32:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:36:9-48:19
+51            android:name="com.marineking.nfcautoswitch.NfcSwitcherService"
+51-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:37:13-47
+52            android:exported="true"
+52-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:38:13-36
+53            android:label="@string/service_name"
+53-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:39:13-49
+54            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+54-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:40:13-79
+55            <intent-filter>
+55-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:41:13-43:29
+56                <action android:name="android.accessibilityservice.AccessibilityService" />
+56-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:42:17-92
+56-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:42:25-89
+57            </intent-filter>
+58
+59            <meta-data
+59-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:45:13-47:72
+60                android:name="android.accessibilityservice"
+60-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:46:17-60
+61                android:resource="@xml/accessibility_service_config" />
+61-->/Users/raymond/AndroidStudioProjects/NFCAutoSwitch/app/src/main/AndroidManifest.xml:47:17-69
+62        </service>
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/raymond/.gradle/caches/8.13/transforms/c673fa88756919fc818b675945e9e5e4/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/raymond/.gradle/caches/8.13/transforms/c673fa88756919fc818b675945e9e5e4/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+66            android:authorities="com.marineking.nfcautoswitch.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.2.0] /Users/raymond/.gradle/caches/8.13/transforms/c673fa88756919fc818b675945e9e5e4/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.2.0] /Users/raymond/.gradle/caches/8.13/transforms/c673fa88756919fc818b675945e9e5e4/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.2.0] /Users/raymond/.gradle/caches/8.13/transforms/c673fa88756919fc818b675945e9e5e4/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/raymond/.gradle/caches/8.13/transforms/c673fa88756919fc818b675945e9e5e4/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/raymond/.gradle/caches/8.13/transforms/c673fa88756919fc818b675945e9e5e4/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/raymond/.gradle/caches/8.13/transforms/85d772ea8b0d58f42710ae6a43dbb932/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/raymond/.gradle/caches/8.13/transforms/85d772ea8b0d58f42710ae6a43dbb932/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/raymond/.gradle/caches/8.13/transforms/85d772ea8b0d58f42710ae6a43dbb932/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+76                android:value="androidx.startup" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+77        </provider>
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raymond/.gradle/caches/8.13/transforms/85a054fef3983754ecf9a6a1eca02b0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>

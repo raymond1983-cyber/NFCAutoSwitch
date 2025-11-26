@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.marineking.nfcautoswitch.app-mergeDebugResources-30:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/raymond/.gradle/caches/8.13/transforms/0ef2289035c2a8f055959ebbc90a7e73/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

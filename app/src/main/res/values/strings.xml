@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">NFC Auto Switch</string>
+    <string name="service_name">NFC Auto Switch Service</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_subtitle">System Status &amp; Settings</string>
+
+    <!-- Status Cards -->
+    <string name="status_adb_title">ADB Permission</string>
+    <string name="status_adb_granted">Authorized</string>
+    <string name="status_adb_denied">Unauthorized</string>
+
+    <string name="status_access_title">Accessibility</string>
+    <string name="status_access_running">Running</string>
+    <string name="status_access_stopped">Stopped</string>
+
+    <!-- Hero Card -->
+    <string name="label_current_nfc">CURRENT NFC DEFAULT</string>
+    <string name="status_loading">Loading...</string>
+    <string name="status_none">None / Not Set</string>
+    <string name="status_unknown">Unknown App</string>
+    <string name="status_read_fail">Read Failed</string>
+
+    <!-- Preferences Section -->
+    <string name="section_preferences">PREFERENCES</string>
+    <string name="pref_screen_off_title">Screen Off Behavior</string>
+    <string name="pref_screen_off_none">Current: None</string>
+    <string name="pref_screen_off_set">Switch to: %s</string>
+    <string name="pref_force_refresh_title">Force Refresh Routing</string>
+    <string name="pref_force_refresh_desc">Fix switch failures (No Root)</string>
+
+    <!-- Rules List Tab -->
+    <string name="rules_title">Applications</string>
+    <string name="rules_subtitle">Select apps to auto-switch</string>
+    <string name="label_system_default">CURRENT SYSTEM DEFAULT</string>
+    <string name="label_package_name">PACKAGE NAME</string>
+    <string name="label_nfc_component">NFC COMPONENT</string>
+    <string name="need_adb_permission">Need ADB Permission</string>
+
+    <!-- Dialogs: ADB Help -->
+    <string name="dialog_adb_title">ADB Setup Guide</string>
+    <string name="dialog_adb_step1_title">1. Developer Options</string>
+    <string name="dialog_adb_step1_desc">Go to Settings, enable \"USB Debugging\".</string>
+    <string name="dialog_adb_step2_title">2. Advanced Settings (Required)</string>
+    <string name="dialog_adb_step2_desc">Enable these if found:\n• USB Debugging (Security Settings)\n• Disable Permission Monitoring</string>
+    <string name="dialog_adb_step3_title">3. Run Command</string>
+    <string name="dialog_adb_step3_desc">Connect PC, copy and run:</string>
+    <string name="dialog_adb_step4_title">4. Restore</string>
+    <string name="dialog_adb_step4_desc">After success, disable USB Debugging for security.</string>
+    <string name="btn_understand">I Understand</string>
+
+    <!-- Dialogs: Accessibility -->
+    <string name="dialog_access_title">Enable Accessibility</string>
+    <string name="dialog_access_msg">Steps:\n1. Tap \'Go to Settings\'.\n2. Find \'NFC Auto Switch Service\'.\n3. Turn ON and Allow.\n\n(Recommended: Disable battery optimization for this app)</string>
+    <string name="btn_go_settings">Go to Settings</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Dialogs: Screen Off -->
+    <string name="dialog_screen_off_title">Switch when screen off:</string>
+    <string name="btn_clear_settings">Clear</string>
+
+    <!-- Toasts & Messages -->
+    <string name="toast_cmd_copied">Command Copied</string>
+    <string name="toast_adb_ok">ADB Permission Granted</string>
+    <string name="toast_force_refresh_on">Force refresh enabled</string>
+    <string name="toast_switched">NFC switched to: %s</string>
+    <string name="toast_force_switched">NFC force refreshed: %s</string>
+    <string name="error_switch_failed">Switch failed (Permission?)</string>
+    <string name="rule_screen_off">Screen Off</string>
+</resources>

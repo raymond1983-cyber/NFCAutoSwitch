@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_icon_check_circle.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/icon_check_circle.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_icon_accessibility.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/icon_accessibility.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/layout_layout_rules.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/layout/layout_rules.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_vector_icon.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/vector_icon.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_bg_icon_circle.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/bg_icon_circle.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/xml_accessibility_service_config.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/layout_dialog_adb_help.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/layout/dialog_adb_help.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_icon_adb_service.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/icon_adb_service.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_icon_chevron_right.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/icon_chevron_right.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_bg_icon_blue.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/bg_icon_blue.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_icon_lock_power_off.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/icon_lock_power_off.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.marineking.nfcautoswitch.app-debug-32:/drawable_ic_launcher_combined.xml.flat",
+        "source": "com.marineking.nfcautoswitch.app-main-34:/drawable/ic_launcher_combined.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_icon_arrow_down.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/icon_arrow_down.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_icon_sync.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/icon_sync.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/layout_layout_dashboard.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/layout/layout_dashboard.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/layout_item_nfc_app.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/layout/item_nfc_app.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_icon_copy.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/icon_copy.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_icon_nfc_symbol.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/icon_nfc_symbol.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-debug-32:/drawable_bg_main_gradient.xml.flat",
+        "source": "/Users/raymond/.gradle/daemon/8.13/com.marineking.nfcautoswitch.app-main-34:/drawable/bg_main_gradient.xml"
+    }
+]
