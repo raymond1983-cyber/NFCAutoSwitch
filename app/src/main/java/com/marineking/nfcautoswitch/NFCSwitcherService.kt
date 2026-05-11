@@ -19,6 +19,8 @@ class NfcSwitcherService : AccessibilityService() {
         const val NFC_PAYMENT_DEFAULT_COMPONENT = "nfc_payment_default_component"
     }
 
+    private var lastWrittenComponent: String? = null
+
     private val screenOffReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
             if (intent?.action == Intent.ACTION_SCREEN_OFF) {
@@ -64,26 +66,39 @@ class NfcSwitcherService : AccessibilityService() {
 
     private fun changeNfcDefault(targetComponent: String, nfcLabel: String) {
         try {
-            val currentSetting = Settings.Secure.getString(contentResolver, NFC_PAYMENT_DEFAULT_COMPONENT)
+            // Android 12+ 不允許一般 app 讀 @hide 的 secure setting，
+            // 即使有 WRITE_SECURE_SETTINGS 也只能寫。改用記憶體 cache 做去重。
+            val currentSetting = try {
+                Settings.Secure.getString(contentResolver, NFC_PAYMENT_DEFAULT_COMPONENT)
+            } catch (se: SecurityException) {
+                lastWrittenComponent
+            }
 
-            if (currentSetting != targetComponent) {
-                val needsForceUpdate = ConfigUtils.isRestartNfcEnabled(applicationContext)
+            if (currentSetting == targetComponent) return
 
-                if (needsForceUpdate) {
-                    Settings.Secure.putString(contentResolver, NFC_PAYMENT_DEFAULT_COMPONENT, null)
-                    Thread {
-                        try {
-                            Thread.sleep(300)
-                            val success = Settings.Secure.putString(contentResolver, NFC_PAYMENT_DEFAULT_COMPONENT, targetComponent)
-                            if (success) showToast(getString(R.string.toast_force_switched, nfcLabel))
-                        } catch (e: Exception) {
-                            Log.e(TAG, "Force update failed", e)
+            val needsForceUpdate = ConfigUtils.isRestartNfcEnabled(applicationContext)
+
+            if (needsForceUpdate) {
+                Settings.Secure.putString(contentResolver, NFC_PAYMENT_DEFAULT_COMPONENT, null)
+                Thread {
+                    try {
+                        Thread.sleep(300)
+                        val success = Settings.Secure.putString(contentResolver, NFC_PAYMENT_DEFAULT_COMPONENT, targetComponent)
+                        if (success) {
+                            lastWrittenComponent = targetComponent
+                            showToast(getString(R.string.toast_force_switched, nfcLabel))
                         }
-                    }.start()
+                    } catch (e: Exception) {
+                        Log.e(TAG, "Force update failed", e)
+                    }
+                }.start()
+            } else {
+                val success = Settings.Secure.putString(contentResolver, NFC_PAYMENT_DEFAULT_COMPONENT, targetComponent)
+                if (success) {
+                    lastWrittenComponent = targetComponent
+                    showToast(getString(R.string.toast_switched, nfcLabel))
                 } else {
-                    val success = Settings.Secure.putString(contentResolver, NFC_PAYMENT_DEFAULT_COMPONENT, targetComponent)
-                    if (success) showToast(getString(R.string.toast_switched, nfcLabel))
-                    else Log.e(TAG, "Switch failed (permission?)")
+                    Log.e(TAG, "Switch failed (permission?)")
                 }
             }
         } catch (e: Exception) {
